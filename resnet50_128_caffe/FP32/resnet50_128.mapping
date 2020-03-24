@@ -1,0 +1,431 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="conv2_3_1x1_reduce/relu" out_port_id="conv2_3_1x1_reduce/bn"/>
+		<IR id="22" name="conv2_3_1x1_reduce/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv5_2_1x1_reduce/bn/scale" out_port_id="conv5_2_1x1_reduce/bn"/>
+		<IR id="110" name="conv5_2_1x1_reduce" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv4_6_1x1_reduce/relu" out_port_id="conv4_6_1x1_reduce/bn"/>
+		<IR id="96" name="conv4_6_1x1_reduce/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="pool5/7x7_s1" out_port_id="pool5/7x7_s1"/>
+		<IR id="124" name="pool5/7x7_s1" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv5_3_3x3/bn/scale" out_port_id="conv5_3_3x3/bn"/>
+		<IR id="119" name="conv5_3_3x3" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv4_3_1x1_reduce/bn/scale" out_port_id="conv4_3_1x1_reduce/bn"/>
+		<IR id="73" name="conv4_3_1x1_reduce" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv5_1_1x1_reduce/bn/scale" out_port_id="conv5_1_1x1_reduce/bn"/>
+		<IR id="103" name="conv5_1_1x1_reduce" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv4_2" out_port_id="conv4_2"/>
+		<IR id="71" name="conv4_2" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="pool1/3x3_s2" out_port_id="pool1/3x3_s2"/>
+		<IR id="4" name="pool1/3x3_s2" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv5_2_1x1_reduce/relu" out_port_id="conv5_2_1x1_reduce/bn"/>
+		<IR id="111" name="conv5_2_1x1_reduce/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv3_3_3x3/bn/scale" out_port_id="conv3_3_3x3/bn"/>
+		<IR id="45" name="conv3_3_3x3" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv4_1_3x3/bn/scale" out_port_id="conv4_1_3x3/bn"/>
+		<IR id="61" name="conv4_1_3x3" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv5_3_3x3/relu" out_port_id="conv5_3_3x3/bn"/>
+		<IR id="120" name="conv5_3_3x3/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv4_3_1x1_reduce/relu" out_port_id="conv4_3_1x1_reduce/bn"/>
+		<IR id="74" name="conv4_3_1x1_reduce/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2_1_1x1_reduce/relu" out_port_id="conv2_1_1x1_reduce/bn"/>
+		<IR id="7" name="conv2_1_1x1_reduce/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv4_5_3x3/bn/scale" out_port_id="conv4_5_3x3/bn"/>
+		<IR id="89" name="conv4_5_3x3" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv2_2_1x1_reduce/bn/scale" out_port_id="conv2_2_1x1_reduce/bn"/>
+		<IR id="13" name="conv2_2_1x1_reduce" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv3_1_3x3/bn/scale" out_port_id="conv3_1_3x3/bn"/>
+		<IR id="31" name="conv3_1_3x3" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv4_2_3x3/relu" out_port_id="conv4_2_3x3/bn"/>
+		<IR id="69" name="conv4_2_3x3/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv4_1_1x1_proj/bn/scale" out_port_id="conv4_1_1x1_proj/bn"/>
+		<IR id="58" name="conv4_1_1x1_proj" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv3_2_1x1_reduce/bn/scale" out_port_id="conv3_2_1x1_reduce/bn"/>
+		<IR id="36" name="conv3_2_1x1_reduce" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv3_1" out_port_id="conv3_1"/>
+		<IR id="34" name="conv3_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv4_6_1x1_reduce/bn/scale" out_port_id="conv4_6_1x1_reduce/bn"/>
+		<IR id="95" name="conv4_6_1x1_reduce" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv4_4_1x1_increase/bn/scale" out_port_id="conv4_4_1x1_increase/bn"/>
+		<IR id="84" name="conv4_4_1x1_increase" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv4_5/relu" out_port_id="conv4_5"/>
+		<IR id="93" name="conv4_5/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv5_1_1x1_reduce/relu" out_port_id="conv5_1_1x1_reduce/bn"/>
+		<IR id="104" name="conv5_1_1x1_reduce/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv3_4_1x1_reduce/relu" out_port_id="conv3_4_1x1_reduce/bn"/>
+		<IR id="52" name="conv3_4_1x1_reduce/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv5_1/relu" out_port_id="conv5_1"/>
+		<IR id="109" name="conv5_1/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv5_1_3x3/bn/scale" out_port_id="conv5_1_3x3/bn"/>
+		<IR id="105" name="conv5_1_3x3" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv2_1_3x3/bn/scale" out_port_id="conv2_1_3x3/bn"/>
+		<IR id="8" name="conv2_1_3x3" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv5_1_3x3/relu" out_port_id="conv5_1_3x3/bn"/>
+		<IR id="106" name="conv5_1_3x3/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv5_2" out_port_id="conv5_2"/>
+		<IR id="115" name="conv5_2" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv3_1/relu" out_port_id="conv3_1"/>
+		<IR id="35" name="conv3_1/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv4_1_1x1_increase/bn/scale" out_port_id="conv4_1_1x1_increase/bn"/>
+		<IR id="63" name="conv4_1_1x1_increase" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv3_2" out_port_id="conv3_2"/>
+		<IR id="41" name="conv3_2" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv4_1_1x1_reduce/bn/scale" out_port_id="conv4_1_1x1_reduce/bn"/>
+		<IR id="59" name="conv4_1_1x1_reduce" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv2_1_3x3/relu" out_port_id="conv2_1_3x3/bn"/>
+		<IR id="9" name="conv2_1_3x3/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv3_2_1x1_reduce/relu" out_port_id="conv3_2_1x1_reduce/bn"/>
+		<IR id="37" name="conv3_2_1x1_reduce/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv5_2_3x3/bn/scale" out_port_id="conv5_2_3x3/bn"/>
+		<IR id="112" name="conv5_2_3x3" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv1/relu_7x7_s2" out_port_id="conv1/7x7_s2/bn"/>
+		<IR id="3" name="conv1/relu_7x7_s2" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv4_4" out_port_id="conv4_4"/>
+		<IR id="85" name="conv4_4" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2_2" out_port_id="conv2_2"/>
+		<IR id="18" name="conv2_2" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv3_2_3x3/bn/scale" out_port_id="conv3_2_3x3/bn"/>
+		<IR id="38" name="conv3_2_3x3" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv2_1/relu" out_port_id="conv2_1"/>
+		<IR id="12" name="conv2_1/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv4_4_3x3/relu" out_port_id="conv4_4_3x3/bn"/>
+		<IR id="83" name="conv4_4_3x3/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv5_3_1x1_increase/bn/scale" out_port_id="conv5_3_1x1_increase/bn"/>
+		<IR id="121" name="conv5_3_1x1_increase" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv4_5_1x1_reduce/relu" out_port_id="conv4_5_1x1_reduce/bn"/>
+		<IR id="88" name="conv4_5_1x1_reduce/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv3_1_1x1_reduce/relu" out_port_id="conv3_1_1x1_reduce/bn"/>
+		<IR id="30" name="conv3_1_1x1_reduce/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv4_2_1x1_reduce/bn/scale" out_port_id="conv4_2_1x1_reduce/bn"/>
+		<IR id="66" name="conv4_2_1x1_reduce" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv3_1_1x1_increase/bn/scale" out_port_id="conv3_1_1x1_increase/bn"/>
+		<IR id="33" name="conv3_1_1x1_increase" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv4_5_1x1_increase/bn/scale" out_port_id="conv4_5_1x1_increase/bn"/>
+		<IR id="91" name="conv4_5_1x1_increase" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv3_1_1x1_reduce/bn/scale" out_port_id="conv3_1_1x1_reduce/bn"/>
+		<IR id="29" name="conv3_1_1x1_reduce" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv3_3_1x1_reduce/relu" out_port_id="conv3_3_1x1_reduce/bn"/>
+		<IR id="44" name="conv3_3_1x1_reduce/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv4_4_1x1_reduce/bn/scale" out_port_id="conv4_4_1x1_reduce/bn"/>
+		<IR id="80" name="conv4_4_1x1_reduce" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv3_3" out_port_id="conv3_3"/>
+		<IR id="48" name="conv3_3" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="data" out_port_id="data"/>
+		<IR id="1" name="ScaleShift/Add_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv4_3_3x3/bn/scale" out_port_id="conv4_3_3x3/bn"/>
+		<IR id="75" name="conv4_3_3x3" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv5_3" out_port_id="conv5_3"/>
+		<IR id="122" name="conv5_3" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv5_1" out_port_id="conv5_1"/>
+		<IR id="108" name="conv5_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv4_3" out_port_id="conv4_3"/>
+		<IR id="78" name="conv4_3" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv5_1_1x1_proj/bn/scale" out_port_id="conv5_1_1x1_proj/bn"/>
+		<IR id="102" name="conv5_1_1x1_proj" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv3_3/relu" out_port_id="conv3_3"/>
+		<IR id="49" name="conv3_3/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2_2_1x1_reduce/relu" out_port_id="conv2_2_1x1_reduce/bn"/>
+		<IR id="14" name="conv2_2_1x1_reduce/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2_3_1x1_reduce/bn/scale" out_port_id="conv2_3_1x1_reduce/bn"/>
+		<IR id="21" name="conv2_3_1x1_reduce" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv3_4_1x1_reduce/bn/scale" out_port_id="conv3_4_1x1_reduce/bn"/>
+		<IR id="51" name="conv3_4_1x1_reduce" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv2_2_3x3/relu" out_port_id="conv2_2_3x3/bn"/>
+		<IR id="16" name="conv2_2_3x3/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv5_1_1x1_increase/bn/scale" out_port_id="conv5_1_1x1_increase/bn"/>
+		<IR id="107" name="conv5_1_1x1_increase" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv4_4/relu" out_port_id="conv4_4"/>
+		<IR id="86" name="conv4_4/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv5_2_3x3/relu" out_port_id="conv5_2_3x3/bn"/>
+		<IR id="113" name="conv5_2_3x3/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv4_4_1x1_reduce/relu" out_port_id="conv4_4_1x1_reduce/bn"/>
+		<IR id="81" name="conv4_4_1x1_reduce/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2_2_1x1_increase/bn/scale" out_port_id="conv2_2_1x1_increase/bn"/>
+		<IR id="17" name="conv2_2_1x1_increase" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv4_5_1x1_reduce/bn/scale" out_port_id="conv4_5_1x1_reduce/bn"/>
+		<IR id="87" name="conv4_5_1x1_reduce" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv4_3_3x3/relu" out_port_id="conv4_3_3x3/bn"/>
+		<IR id="76" name="conv4_3_3x3/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv4_3_1x1_increase/bn/scale" out_port_id="conv4_3_1x1_increase/bn"/>
+		<IR id="77" name="conv4_3_1x1_increase" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv4_2_1x1_reduce/relu" out_port_id="conv4_2_1x1_reduce/bn"/>
+		<IR id="67" name="conv4_2_1x1_reduce/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv4_5_3x3/relu" out_port_id="conv4_5_3x3/bn"/>
+		<IR id="90" name="conv4_5_3x3/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv4_1" out_port_id="conv4_1"/>
+		<IR id="64" name="conv4_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv4_2_3x3/bn/scale" out_port_id="conv4_2_3x3/bn"/>
+		<IR id="68" name="conv4_2_3x3" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv5_2_1x1_increase/bn/scale" out_port_id="conv5_2_1x1_increase/bn"/>
+		<IR id="114" name="conv5_2_1x1_increase" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv4_5" out_port_id="conv4_5"/>
+		<IR id="92" name="conv4_5" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2_1" out_port_id="conv2_1"/>
+		<IR id="11" name="conv2_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2_1_1x1_reduce/bn/scale" out_port_id="conv2_1_1x1_reduce/bn"/>
+		<IR id="6" name="conv2_1_1x1_reduce" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv5_3_1x1_reduce/relu" out_port_id="conv5_3_1x1_reduce/bn"/>
+		<IR id="118" name="conv5_3_1x1_reduce/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv4_2/relu" out_port_id="conv4_2"/>
+		<IR id="72" name="conv4_2/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv4_1/relu" out_port_id="conv4_1"/>
+		<IR id="65" name="conv4_1/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2_2/relu" out_port_id="conv2_2"/>
+		<IR id="19" name="conv2_2/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv3_2_3x3/relu" out_port_id="conv3_2_3x3/bn"/>
+		<IR id="39" name="conv3_2_3x3/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv3_1_1x1_proj/bn/scale" out_port_id="conv3_1_1x1_proj/bn"/>
+		<IR id="28" name="conv3_1_1x1_proj" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="feat_extract" out_port_id="0"/>
+		<IR id="125" name="feat_extract" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2_1_1x1_proj/bn/scale" out_port_id="conv2_1_1x1_proj/bn"/>
+		<IR id="5" name="conv2_1_1x1_proj" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv4_4_3x3/bn/scale" out_port_id="conv4_4_3x3/bn"/>
+		<IR id="82" name="conv4_4_3x3" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv4_1_3x3/relu" out_port_id="conv4_1_3x3/bn"/>
+		<IR id="62" name="conv4_1_3x3/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv3_1_3x3/relu" out_port_id="conv3_1_3x3/bn"/>
+		<IR id="32" name="conv3_1_3x3/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2_2_3x3/bn/scale" out_port_id="conv2_2_3x3/bn"/>
+		<IR id="15" name="conv2_2_3x3" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv4_1_1x1_reduce/relu" out_port_id="conv4_1_1x1_reduce/bn"/>
+		<IR id="60" name="conv4_1_1x1_reduce/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv3_2_1x1_increase/bn/scale" out_port_id="conv3_2_1x1_increase/bn"/>
+		<IR id="40" name="conv3_2_1x1_increase" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv2_1_1x1_increase/bn/scale" out_port_id="conv2_1_1x1_increase/bn"/>
+		<IR id="10" name="conv2_1_1x1_increase" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv3_3_1x1_reduce/bn/scale" out_port_id="conv3_3_1x1_reduce/bn"/>
+		<IR id="43" name="conv3_3_1x1_reduce" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv4_3/relu" out_port_id="conv4_3"/>
+		<IR id="79" name="conv4_3/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv5_3_1x1_reduce/bn/scale" out_port_id="conv5_3_1x1_reduce/bn"/>
+		<IR id="117" name="conv5_3_1x1_reduce" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv3_2/relu" out_port_id="conv3_2"/>
+		<IR id="42" name="conv3_2/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv5_2/relu" out_port_id="conv5_2"/>
+		<IR id="116" name="conv5_2/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv3_3_3x3/relu" out_port_id="conv3_3_3x3/bn"/>
+		<IR id="46" name="conv3_3_3x3/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv1/7x7_s2/bn/scale" out_port_id="conv1/7x7_s2/bn"/>
+		<IR id="2" name="conv1/7x7_s2" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv5_3/relu" out_port_id="conv5_3"/>
+		<IR id="123" name="conv5_3/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv3_3_1x1_increase/bn/scale" out_port_id="conv3_3_1x1_increase/bn"/>
+		<IR id="47" name="conv3_3_1x1_increase" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv4_2_1x1_increase/bn/scale" out_port_id="conv4_2_1x1_increase/bn"/>
+		<IR id="70" name="conv4_2_1x1_increase" out_port_id="3"/>
+	</map>
+</mapping>
